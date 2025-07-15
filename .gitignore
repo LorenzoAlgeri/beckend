@@ -1,0 +1,14 @@
+# Node
+node_modules
+dist
+
+# Sistema
+.DS_Store
+
+# Ambiente
+.env
+
+# Replit / Build
+server/public
+vite.config.ts.*
+*.tar.gz

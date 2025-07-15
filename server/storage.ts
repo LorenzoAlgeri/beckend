@@ -1,4 +1,4 @@
-import { contacts, users, type Contact, type User, type InsertContact, type InsertUser } from "@shared/schema";
+import { contacts, users, type Contact, type User, type InsertContact, type InsertUser } from "../shared/schema.js";
 import { db } from "./db";
 import { eq } from "drizzle-orm";
 

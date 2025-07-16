@@ -8,7 +8,10 @@ const app = express();
 
 // ✅ Consenti solo il dominio Vercel
 app.use(cors({
-  origin: "https://frontend-qz2h-git-main-lorenzos-projects-0026e847.vercel.app",
+  origin: [
+  "https://frontend-qz2h.vercel.app",
+  "https://frontend-qz2h-git-main-lorenzos-projects-0026e847.vercel.app",
+],
   credentials: true,
 }));
 

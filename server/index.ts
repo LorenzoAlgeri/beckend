@@ -13,6 +13,8 @@ app.use(cors({
   "https://lorenzo-algeri.vercel.app",
   "https://frontend-qz2h-git-main-lorenzos-projects-0026e847.vercel.app",
   "https://lorenzoalgeri.it",
+  "https://www.lorenzoalgeri.it",
+    
 ],
   credentials: true,
 }));
